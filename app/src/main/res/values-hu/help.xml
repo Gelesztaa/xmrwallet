@@ -25,9 +25,9 @@
         <p>Adj meg egy egyedi tárcanevet és jelszót. A jelszó a tárcaadataidnak az eszközön való biztosítására szolgál.
         Használj erős jelszót, de még jobb a jelmondat használata.</p>
         <p>Add meg a mnemonikus magodat a megfelelő mezőben.<p>
-        <p>Ha tudod a címhez tartozó első tranzakció blokkszámát, akkor add azt meg a Visszaállítási lánchossz
-        mezőben. Üresen hagyása a <em>teljes</em> blokklánc újbóli beolvasását vonja maga után a címedhez
-        tartozó tranzakciók megkeresése érdekében. Ez <em>sok</em> időt vesz igénybe.</p>
+        <p>Add meg a címhez tartozó első tranzakció blokkszámát a Visszaállítási lánchossz mezőben, de megadhatod dátum
+        formátumban (ÉÉÉÉ-HH-NN) is. Ha nem vagy biztos benne, adj meg egy megközelítő dátumot/blokkszámot a tárca első
+        használata <em>előttről</em>.</p>
     ]]></string>
 
     <string name="help_create_keys"><![CDATA[
@@ -36,9 +36,9 @@
         <p>Adj meg egy egyedi tárcanevet és jelszót. A jelszó a tárcaadataidnak az eszközön való biztosítására szolgál.
         Használj erős jelszót, de még jobb a jelmondat használata.</p>
         <p>Add meg a Monero-címed a Nyilvános cím mezőben és töltsd ki a Figyelőkulcs és Költőkulcs mezőket.</p>
-        <p>Ha tudod a címhez tartozó első tranzakció blokkszámát, akkor add azt meg a Visszaállítási lánchossz
-        mezőben. Üresen hagyása a <em>teljes</em> blokklánc újbóli beolvasását vonja maga után a címedhez
-        tartozó tranzakciók megkeresése érdekében. Ez <em>sok</em> időt vesz igénybe.</p>
+        <p>Add meg a címhez tartozó első tranzakció blokkszámát a Visszaállítási lánchossz mezőben, de megadhatod dátum
+        formátumban (ÉÉÉÉ-HH-NN) is. Ha nem vagy biztos benne, adj meg egy megközelítő dátumot/blokkszámot a tárca első
+        használata <em>előttről</em>.</p>
     ]]></string>
 
     <string name="help_create_view"><![CDATA[
@@ -47,9 +47,9 @@
         <p>Adj meg egy egyedi tárcanevet és jelszót. A jelszó a tárcaadataidnak az eszközön való biztosítására szolgál.
         Használj erős jelszót, de még jobb a jelmondat használata.</p>
         <p>Add meg a Monero-címed a Nyilvános cím mezőben és töltsd ki a Figyelőkulcs mezőt.</p>
-        <p>Ha tudod a címhez tartozó első tranzakció blokkszámát, akkor add azt meg a Visszaállítási lánchossz
-        mezőben. Üresen hagyása a <em>teljes</em> blokklánc újbóli beolvasását vonja maga után a címedhez
-        tartozó tranzakciók megkeresése érdekében. Ez <em>sok</em> időt vesz igénybe.</p>
+        <p>Add meg a címhez tartozó első tranzakció blokkszámát a Visszaállítási lánchossz mezőben, de megadhatod dátum
+        formátumban (ÉÉÉÉ-HH-NN) is. Ha nem vagy biztos benne, adj meg egy megközelítő dátumot/blokkszámot a tárca első
+        használata <em>előttről</em>.</p>
     ]]></string>
 
     <string name="help_details"><![CDATA[
@@ -234,4 +234,15 @@
         visszamész az előző lépésre, majd visszajössz a Megerősítés oldalra.</p>
     ]]></string>
 
+    <string name="help_create_ledger"><![CDATA[
+        <h1>Tárcalétrehozás - Ledger</h1>
+        <p>Ha a Ledger Nano S eszközödről szeretenéd visszaállítani a tárcád.</p>
+        <p>A titkos kulcsaid mindig a Ledgeren maradnak, így azt mindig csatlakoztatnod kell,
+        ha hozzá szeretnél férni a tárcádhoz.</p>
+        <p>Adj meg egy egyedi tárcanevet és jelszót. A jelszó a tárcaadataidnak az eszközön való biztosítására szolgál.
+        Használj erős jelszót, de még jobb a jelmondat használata.</p>
+        <p>Add meg a címhez tartozó első tranzakció blokkszámát a Visszaállítási lánchossz mezőben, de megadhatod dátum
+        formátumban (ÉÉÉÉ-HH-NN) is. Ha nem vagy biztos benne, adj meg egy megközelítő dátumot/blokkszámot a tárca első
+        használata <em>előttről</em>.</p>
+    ]]></string>
 </resources>
